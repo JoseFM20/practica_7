@@ -20,7 +20,7 @@ jobs:
           python-version: "3.11"
     
       - name: Install dependencies # Instala las dependencias necesarias para ejecutar las pruebas
-        run: pip install -r requirements.txt
+        run: pip install -r src/requirements.txt
     
       - name: Test with pytest # Ejecuta las pruebas utilizando pytest
         working-directory: src # Directorio donde se encuentran las pruebas
